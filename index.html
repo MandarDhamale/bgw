@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basileo Society Ganesh Festival</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="logo.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <!-- Logo -->
+        <img src="logo.png" alt="" />
+        <!-- Navbar Toggler (hamburger icon for mobile) -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collapsible Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#schedule">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#events">Events</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Dark Mode Toggle (Place it outside of the collapsible area) -->
+      <div class="form-check form-switch text-white m-2">
+        <input class="form-check-input" type="checkbox" id="darkModeSwitch" />
+        <label class="form-check-label" for="darkModeSwitch">Dark Mode</label>
+      </div>
+    </nav>
+
+    <!-- Marquee Section -->
+    <div class="bg-warning text-dark py-2">
+      <!-- <marquee behavior="scroll" direction="left" scrollamount="10" onmouseover="this.stop();" onmouseout="this.start();">
+        <span style="font-weight: bold; font-size: 1.0rem;">
+            Hurry Up! Register Now for the Events at the Basileo's Ganesh Utsav 2024!
+        </span>
+    </marquee> -->
+
+      <div class="marquee-container">
+        <div class="marquee-content">
+          Hurry Up! Register Now for the Events at the Basileo's Ganesh Utsav
+          2024!
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <header
+      style="background-color: #db222a; color: white"
+      class="text-white text-center py-2"
+    >
+      <div class="container">
+        <h6>Welcome to Basileo's Ganesh Utsav 24</h6>
+        <div style="font-size: small">
+          Let's celebrate the divine presence of Lord Ganesha
+        </div>
+      </div>
+    </header>
+
+    <!-- Blinking Text Section -->
+    <div
+      class="alert alert-warning text-center alert-sm"
+      style="font-size: small"
+    >
+      <div>Registration is open! Use below links to register.</div>
+    </div>
+
+    <!-- Blinking Buttons Section
+        <div class="container text-center my-4">
+            <a href="link_to_cultural_events" class="btn btn-lg btn-blink m-2">Cultural Events</a>
+            <a href="link_to_dance" class="btn btn-lg btn-blink m-2">DanceDanceDanceDance</a>
+            <a href="link_to_sports" class="btn btn-lg btn-blink m-2">Sports</a>
+        </div> -->
+
+    <!-- About Section
+    <section id="about" class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <img src="ganesh_header.png" class="img-fluid" alt="Ganesh Festival">
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Events Section -->
+    <section id="events" class="py-2">
+      <div class="container">
+        <h4 class="text-center mt-1">Festival Events - Register Now!</h4>
+        <div class="row">
+          <div class="col-md-4 p-3">
+            <div class="card">
+              <!-- <img src="aarti.png" class="card-img-top" alt="Event 1"> -->
+              <div class="card-body">
+                <h5 class="card-title">Sports 🏏</h5>
+                <p class="card-text">Participate in Cricket competition</p>
+                <div class="container text-center my-3">
+                  <a
+                    href="https://forms.gle/YsPXSK1YPLqQYvGC8"
+                    class="btn btn-m btn-blink m-2"
+                    >Click here to register</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 p-3">
+            <div class="card">
+              <!-- <img src="cultural_event.png" class="card-img-top" alt="Event 2"> -->
+              <div class="card-body">
+                <h5 class="card-title">Cultural Programs 💃</h5>
+                <p class="card-text">Participate in Dance and Fashion show</p>
+                <div class="container text-center my-3">
+                  <a
+                    href="https://forms.gle/W7drS7uxRVnqfV986"
+                    class="btn btn-m btn-blink m-2"
+                    >Click here to register</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 p-3">
+            <div class="card">
+              <!-- <img src="visarjan.png" class="card-img-top" alt="Event 3"> -->
+              <div class="card-body">
+                <h5 class="card-title">Fun Fair 🎪</h5>
+                <p class="card-text">
+                  Register to book a table for you in our fun fair
+                </p>
+                <div class="container text-center my-3">
+                  <a
+                    href="https://forms.gle/HYfRek8G2jJet3ng6"
+                    class="btn btn-m btn-blink m-2"
+                    >Click here to register</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Schedule Section -->
+          <section id="schedule" class="">
+            <div class="row mt-5">
+              <div class="col-12 text-center">
+                <h3>Festival Schedule 2024</h3>
+                <img
+                  src="schedule.jpeg"
+                  class="img-fluid mt-3 rounded"
+                  alt="Ganesh Festival Schedule"
+                />
+              </div>
+            </div>
+          </section>
+          <div class="container text-center my-3">
+            <a href="schedule.pdf" class="btn btn-m btn-danger m-2"
+              >Download Schedule 2024 (PDF)</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <!-- <h2 class="text-center">Contact Us</h2> -->
+        <div class="row">
+          <div class="col-md-6">
+            <!-- <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" syle="background-color: #50C878; color: white; "class="btn btn-dark">Submit</button>
+                    </form> -->
+          </div>
+          <div class="col-md-6 mt-3 p-3">
+            <h4>Location</h4>
+            <p>
+              Basileo Sr. No. 38, Opp. Narmada Garden, M.S. Kate Chowk<br />Pimple
+              Gurav, Pune - 411061
+            </p>
+            <!-- <h4>Email</h4>
+                    <p>-</p>
+                    <h4>Phone</h4>
+                    <p>-</p> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <div class="container">
+        <p>
+          Made by
+          <a
+            href="https://www.linkedin.com/in/mandar-dhamale/"
+            style="color: white"
+            >Mandar Dhamale </a
+          ><i class="fa-brands fa-linkedin"></i>
+        </p>
+        <p>
+          <a
+            href="https://www.instagram.com/basileo_official/"
+            target="_blank"
+            style="color: white"
+          >
+            <i class="fab fa-instagram"></i> Follow us on Instagram
+          </a>
+        </p>
+        <p>&copy; Basileo Mitra Mandal. Some rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- <script>
+        window.onload = function() {
+          setTimeout(function() {
+            const eventSection = document.getElementById('events');
+            if (eventSection) {
+              eventSection.scrollIntoView({ behavior: 'smooth' });
+            } else {
+              console.error('Section with ID "events" not found.');
+            }
+          }, 2500); // 2500 milliseconds = 2.5 seconds
+        }
+      </script> -->
+
+    <script>
+      window.onload = function () {
+        setTimeout(function () {
+          document
+            .getElementById("events")
+            .scrollIntoView({ behavior: "smooth" });
+        }, 5000); // 5 seconds
+      };
+      document
+        .getElementById("darkModeSwitch")
+        .addEventListener("change", function () {
+          document.body.classList.toggle("dark-mode");
+          document.querySelector("header").classList.toggle("dark-mode");
+          document.querySelector("nav").classList.toggle("dark-mode");
+          document.querySelector("footer").classList.toggle("dark-mode");
+
+          // Toggle for all cards
+          document.querySelectorAll(".card").forEach(function (card) {
+            card.classList.toggle("dark-mode");
+          });
+
+          // Toggle for marquee
+          document
+            .querySelector(".marquee-container")
+            .classList.toggle("dark-mode");
+
+          // Toggle for form switch label
+          document
+            .querySelector(".form-check-label")
+            .classList.toggle("dark-mode");
+
+          // Toggle for alert-warning
+          document.querySelectorAll(".alert-warning").forEach(function (alert) {
+            alert.classList.toggle("dark-mode");
+          });
+
+          // Toggle for #events and #schedule sections and their headings
+          document.querySelector("#events").classList.toggle("dark-mode");
+          document.querySelector("#events h4").classList.toggle("dark-mode");
+          document.querySelector("#schedule").classList.toggle("dark-mode");
+          document.querySelector("#schedule h3").classList.toggle("dark-mode");
+
+          // Toggle dark mode for buttons if needed
+          document.querySelectorAll(".btn").forEach(function (btn) {
+            btn.classList.toggle("btn-dark-mode");
+          });
+        });
+    </script>
+  </body>
+</html>

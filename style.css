@@ -1,0 +1,148 @@
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: url("ganesh_bg.jpg") no-repeat center center/cover;
+}
+
+.alert-sm {
+  padding: 5px 5px; /* Adjust padding */
+  /* font-size: 0.875rem; /* Adjust font size */
+  /* line-height: 1.25; Adjust line height */
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+#events img {
+  max-width: 100%;
+  height: auto;
+  /* border-radius: 8px; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#events h3 {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  padding: 10px 0;
+}
+
+.btn-blink {
+  background-color: #db222a;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 6px 15px;
+  text-transform: uppercase;
+  animation: blink 0.6s infinite alternate; /* Reduced duration for faster blinking */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.btn-blink:hover {
+  transform: scale(1.1);
+  text-decoration: none;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.marquee-content {
+  display: inline-block;
+  padding-left: 0%; /* Adjust this value */
+  animation: marquee 7s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Dark mode for the body (entire background and text color) */
+body.dark-mode {
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text color for readability */
+}
+
+/* Dark mode for the header */
+header.dark-mode {
+  background-color: #1c1c1c; /* Dark header */
+  color: #f0f0f0; /* Light text color */
+}
+
+/* Dark mode for the navbar */
+nav.dark-mode {
+  background-color: #1e1e1e; /* Dark background for navbar */
+  color: #f0f0f0; /* Light text color */
+}
+
+/* Dark mode for footer */
+footer.dark-mode {
+  background-color: #1e1e1e; /* Dark background for footer */
+  color: #e0e0e0; /* Light text for footer */
+}
+
+/* Dark mode for all card components */
+.card.dark-mode {
+  background-color: #2b2b2b; /* Dark background for cards */
+  color: #e0e0e0; /* Light text for cards */
+}
+
+/* Dark mode for form switch label */
+.form-check-label.dark-mode {
+  color: #e0e0e0; /* Light color for toggle label */
+}
+
+/* Dark mode for headings in events and schedule */
+#events h4.dark-mode,
+#schedule h3.dark-mode {
+  color: #f5f5f5; /* Light gray text for section titles */
+}
+
+/* Dark mode for the #events and #schedule section backgrounds */
+#events.dark-mode,
+#schedule.dark-mode {
+  background-color: #1e1e1e; /* Dark background for these sections */
+  color: #e0e0e0; /* Light text color for the content */
+}
+
+/* Dark mode for buttons */
+.btn-dark-mode {
+  background-color: #db222a; /* Existing button color */
+  color: white; /* Ensure button text remains white */
+}
+
+.alert {
+  border-radius: 0;
+}
